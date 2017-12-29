@@ -19,7 +19,7 @@
     <Authors>SirMetathyst</Authors>
     <Description>Psythyst CodeGenerator Data Model(s)</Description>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <Copyright>Copyright 2017 (c) SirMetathyst.</Copyright>
+    <Copyright>Copyright 2017 (c) Alexander Hunt.</Copyright>
     <PackageTags>CodeGenerator,Psythyst,Data,Model</PackageTags>
 </PropertyGroup>
 
