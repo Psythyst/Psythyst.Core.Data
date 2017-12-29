@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:sdk AS Build
 WORKDIR /Psythyst.Core.Data
-COPY ./ ./
+COPY ./Psythyst.Core.Data ./
 RUN dotnet restore
 RUN dotnet publish -c Release -o ./Publish
