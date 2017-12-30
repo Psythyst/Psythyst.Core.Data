@@ -1,1 +1,1 @@
-docker build -t psythyst/psythyst-core-data:latest .
+docker build --rm -t psythyst/psythyst-core-data:latest .
