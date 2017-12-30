@@ -8,8 +8,6 @@ namespace Psythyst.Core.Data
     /// </summary>
     public struct ProjectModel
     { 
-        public string Version { get; }
-
         public ProjectContextModel[] Context { get; }
 
         public ProjectComponentModel[] Component { get; }
@@ -21,7 +19,6 @@ namespace Psythyst.Core.Data
             ProjectComponentModel[] Component,
             ProjectCustomEntityIndexModel[] CustomEntityIndex) {
 
-            this.Version = "0.1";
             this.Context = Context;
             this.Component = Component;
             this.CustomEntityIndex = CustomEntityIndex;
