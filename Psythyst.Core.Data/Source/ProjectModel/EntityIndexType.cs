@@ -1,9 +1,9 @@
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectEntityIndex Type.
+    /// EntityIndexType Type.
     /// </summary>
-    public enum ProjectEntityIndexType
+    public enum EntityIndexType
     {
         None = 0,
         PrimaryEntityIndex = 1,

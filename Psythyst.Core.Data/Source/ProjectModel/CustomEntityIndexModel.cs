@@ -3,32 +3,32 @@ using System;
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectCustomEntityIndexModel Struct.
+    /// CustomEntityIndexModel Struct.
     /// </summary>
-    public struct ProjectCustomEntityIndexModel
+    public struct CustomEntityIndexModel
     { 
         public string EntityIndexMethod { get; }
 
         public string Context { get; }
 
-        public ProjectEntityIndexType EntityIndexParentType { get; }
+        public EntityIndexType EntityIndexParentType { get; }
 
         public string EntityIndexType { get; }
 
-        public ProjectCustomEntityIndexAttributeModel[] Attribute { get; }
+        public CustomEntityIndexMemberModel[] Member { get; }
 
-        public ProjectCustomEntityIndexModel(
+        public CustomEntityIndexModel(
             string EntityIndexMethod,
             string Context,
-            ProjectEntityIndexType EntityIndexParentType,
+            EntityIndexType EntityIndexParentType,
             string EntityIndexType,
-            ProjectCustomEntityIndexAttributeModel[] Attribute)
+            CustomEntityIndexMemberModel[] Member)
         {
             this.EntityIndexMethod = EntityIndexMethod;
             this.Context = Context;
             this.EntityIndexParentType = EntityIndexParentType;
             this.EntityIndexType = EntityIndexType;
-            this.Attribute = Attribute;
+            this.Member = Member;
         }
     }
 }

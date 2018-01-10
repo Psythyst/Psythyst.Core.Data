@@ -3,20 +3,20 @@ using System;
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectComponentAttributeModel Struct.
+    /// ComponentMemberModel Struct.
     /// </summary>
-    public struct ProjectComponentAttributeModel
+    public struct ComponentMemberModel
     { 
         public string Type { get; }
 
         public string Name { get; }
 
-        public ProjectEntityIndexType EntityIndex { get; }
+        public EntityIndexType EntityIndex { get; }
 
-        public ProjectComponentAttributeModel(
+        public ComponentMemberModel(
             string Type, 
             string Name, 
-            ProjectEntityIndexType EntityIndex)
+            EntityIndexType EntityIndex)
         {
             this.Type = Type;
             this.Name = Name;

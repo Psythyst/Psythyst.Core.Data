@@ -3,15 +3,15 @@ using System;
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectCustomEntityIndexAttributeModel Struct.
+    /// CustomEntityIndexMemberModel Struct.
     /// </summary>
-    public struct ProjectCustomEntityIndexAttributeModel
+    public struct CustomEntityIndexMemberModel
     { 
         public string Type { get; }
 
         public string Name { get; }
 
-        public ProjectCustomEntityIndexAttributeModel(
+        public CustomEntityIndexMemberModel(
             string Type, 
             string Name)
         {

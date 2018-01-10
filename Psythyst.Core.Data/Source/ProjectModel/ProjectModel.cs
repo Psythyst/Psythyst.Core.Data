@@ -8,17 +8,17 @@ namespace Psythyst.Core.Data
     /// </summary>
     public struct ProjectModel
     { 
-        public ProjectContextModel[] Context { get; }
+        public ContextModel[] Context { get; }
 
-        public ProjectComponentModel[] Component { get; }
+        public ComponentModel[] Component { get; }
 
-        public ProjectCustomEntityIndexModel[] CustomEntityIndex { get; }
+        public CustomEntityIndexModel[] CustomEntityIndex { get; }
 
         public ProjectModel (
-            ProjectContextModel[] Context, 
-            ProjectComponentModel[] Component,
-            ProjectCustomEntityIndexModel[] CustomEntityIndex) {
-
+            ContextModel[] Context, 
+            ComponentModel[] Component,
+            CustomEntityIndexModel[] CustomEntityIndex) {
+                
             this.Context = Context;
             this.Component = Component;
             this.CustomEntityIndex = CustomEntityIndex;

@@ -3,9 +3,9 @@ using System;
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectComponentModel Struct.
+    /// ComponentModel Struct.
     /// </summary>
-    public struct ProjectComponentModel
+    public struct ComponentModel
     { 
         public string Name { get; }
 
@@ -15,20 +15,20 @@ namespace Psythyst.Core.Data
         
         public bool Unique { get; }
 
-        public ProjectComponentAttributeModel[] Attribute { get; }
+        public ComponentMemberModel[] Member { get; }
 
-        public ProjectComponentModel(
+        public ComponentModel(
             string Name, 
             string[] Context, 
             string UniquePrefix, 
             bool Unique, 
-            ProjectComponentAttributeModel[] Attribute)
+            ComponentMemberModel[] Member)
         {
             this.Name = Name;
             this.Context = Context;
             this.UniquePrefix = UniquePrefix;
             this.Unique = Unique;
-            this.Attribute = Attribute;
+            this.Member = Member;
         }
     }
 }

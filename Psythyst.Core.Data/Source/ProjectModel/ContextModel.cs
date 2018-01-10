@@ -3,13 +3,13 @@ using System;
 namespace Psythyst.Core.Data
 {
     /// <summary>
-    /// ProjectContextModel Struct.
+    /// ContextModel Struct.
     /// </summary>
-    public struct ProjectContextModel
+    public struct ContextModel
     { 
         public string Name { get; }
 
-        public ProjectContextModel(string Name){
+        public ContextModel(string Name){
             this.Name = Name;
         }
     }
