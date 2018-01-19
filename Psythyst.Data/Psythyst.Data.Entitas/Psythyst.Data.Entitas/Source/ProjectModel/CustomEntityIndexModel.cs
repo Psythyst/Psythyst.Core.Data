@@ -1,21 +1,21 @@
 using System;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// CustomEntityIndexModel Struct.
     /// </summary>
     public struct CustomEntityIndexModel
     { 
-        public string EntityIndexMethod { get; }
+        public string EntityIndexMethod;
 
-        public string Context { get; }
+        public string Context;
 
-        public EntityIndexType EntityIndexParentType { get; }
+        public EntityIndexType EntityIndexParentType;
 
-        public string EntityIndexType { get; }
+        public string EntityIndexType;
 
-        public CustomEntityIndexMemberModel[] Member { get; }
+        public CustomEntityIndexMemberModel[] Member;
 
         public CustomEntityIndexModel(
             string EntityIndexMethod,

@@ -1,13 +1,13 @@
 using System;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// ContextModel Struct.
     /// </summary>
     public struct ContextModel
     { 
-        public string Name { get; }
+        public string Name;
 
         public ContextModel(string Name){
             this.Name = Name;

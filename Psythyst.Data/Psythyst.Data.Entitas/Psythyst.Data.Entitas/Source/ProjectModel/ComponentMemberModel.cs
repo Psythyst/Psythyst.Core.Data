@@ -1,17 +1,17 @@
 using System;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// ComponentMemberModel Struct.
     /// </summary>
     public struct ComponentMemberModel
     { 
-        public string Type { get; }
+        public string Type;
 
-        public string Name { get; }
+        public string Name;
 
-        public EntityIndexType EntityIndex { get; }
+        public EntityIndexType EntityIndex;
 
         public ComponentMemberModel(
             string Type, 

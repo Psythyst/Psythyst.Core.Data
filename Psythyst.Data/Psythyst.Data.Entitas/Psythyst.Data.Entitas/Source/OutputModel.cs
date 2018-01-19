@@ -1,13 +1,13 @@
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// OutputModel Struct.
     /// </summary>
     public struct OutputModel
     { 
-        public string FilePath { get; set; }
+        public string FilePath;
 
-        public string FileContent { get; set; }
+        public string FileContent;
 
         public OutputModel(string FilePath, string FileContent)
         {

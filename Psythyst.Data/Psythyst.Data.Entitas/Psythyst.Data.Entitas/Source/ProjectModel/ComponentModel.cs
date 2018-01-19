@@ -1,21 +1,21 @@
 using System;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// ComponentModel Struct.
     /// </summary>
     public struct ComponentModel
     { 
-        public string Name { get; }
+        public string Name;
 
-        public string[] Context { get; }
+        public string[] Context;
 
-        public string UniquePrefix { get; }
+        public string UniquePrefix;
         
-        public bool Unique { get; }
+        public bool Unique;
 
-        public ComponentMemberModel[] Member { get; }
+        public ComponentMemberModel[] Member;
 
         public ComponentModel(
             string Name, 

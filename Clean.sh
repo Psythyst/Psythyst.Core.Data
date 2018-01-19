@@ -1,8 +1,4 @@
-# Clean Psythyst.Core.Data
-rm -rf ./Psythyst.Core.Data/bin
-rm -rf ./Psythyst.Core.Data/obj
-rm -rf ./Psythyst.Core.Data/Publish
-rm -rf ./Psythyst.Core.Data/Package
-
-# Clean
-rm -rf ./Publish
+find . -type d -name 'Publish' -exec rm -rf "{}" + 
+find . -type d -name 'Package' -exec rm -rf "{}" + 
+find . -type d -name 'bin' -exec rm -rf "{}" + 
+find . -type d -name 'obj' -exec rm -rf "{}" + 

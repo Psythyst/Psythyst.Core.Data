@@ -1,4 +1,4 @@
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// EntityIndexType Type.
@@ -6,7 +6,7 @@ namespace Psythyst.Core.Data
     public enum EntityIndexType
     {
         None = 0,
-        PrimaryEntityIndex = 1,
-        EntityIndex = 2
+        PrimaryIndex = 1,
+        Index = 2
     }
 }

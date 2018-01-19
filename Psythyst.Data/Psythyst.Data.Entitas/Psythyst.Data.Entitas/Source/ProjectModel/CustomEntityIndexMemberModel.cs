@@ -1,15 +1,15 @@
 using System;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// CustomEntityIndexMemberModel Struct.
     /// </summary>
     public struct CustomEntityIndexMemberModel
     { 
-        public string Type { get; }
+        public string Type;
 
-        public string Name { get; }
+        public string Name;
 
         public CustomEntityIndexMemberModel(
             string Type, 

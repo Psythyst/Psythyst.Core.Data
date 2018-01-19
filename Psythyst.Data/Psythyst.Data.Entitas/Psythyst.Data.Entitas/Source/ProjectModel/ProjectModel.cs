@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 
-namespace Psythyst.Core.Data
+namespace Psythyst.Data.Entitas
 {
     /// <summary>
     /// ProjectModel Struct.
     /// </summary>
     public struct ProjectModel
     { 
-        public ContextModel[] Context { get; }
+        public ContextModel[] Context;
 
-        public ComponentModel[] Component { get; }
+        public ComponentModel[] Component;
 
-        public CustomEntityIndexModel[] CustomEntityIndex { get; }
+        public CustomEntityIndexModel[] CustomEntityIndex;
 
         public ProjectModel (
             ContextModel[] Context, 
